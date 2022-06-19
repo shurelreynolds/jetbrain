@@ -1,0 +1,24 @@
+package com.shurel.coffee;
+
+class Coffee {
+    private int water, milk, coffeeBeans, price;
+ 
+    Coffee(int water, int milk, int coffeeBeans, int price) {
+        this.water = water;
+        this.milk = milk;
+        this.coffeeBeans = coffeeBeans;
+        this.price = price;
+      }
+    int getWater() {
+        return this.water;
+    }
+    int getMilk() {
+        return this.milk;
+    }
+    int getCoffeeBeans() {
+        return this.coffeeBeans;
+    }
+    int getPrice() {
+        return this.price;
+    }
+}
